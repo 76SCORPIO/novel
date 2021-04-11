@@ -32,7 +32,7 @@ class NovelSpiderItem(scrapy.Item):
     txt_img_url = scrapy.Field()
 
 class NovelCategoryItem(scrapy.Item):
-
+    # 小说类别
     txt_category = scrapy.Field()
 
 class NovelChapterAndContentItem(scrapy.Item):

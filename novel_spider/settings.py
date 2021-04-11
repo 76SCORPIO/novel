@@ -29,7 +29,7 @@ NEWSPIDER_MODULE = 'novel_spider.spiders'
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16) 全局并发数
-CONCURRENT_REQUESTS = 40
+CONCURRENT_REQUESTS = 60
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
