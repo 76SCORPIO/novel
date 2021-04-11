@@ -50,7 +50,6 @@ class NovelSpider(scrapy.Spider):
         item['txt_status'] = txt_status
 
 
-
         # 爬取每本小说下载链接 存入变量txt_download_url
         txt_download_url = re.findall('mydownurl="(http:.*)"', response.text)[0]
 
